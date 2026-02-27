@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Metadades bàsiques del document -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enllaços</title>
+</head>
+<body>
+
+  <!-- ÀNCORA TOP: punt superior de la pàgina -->
+  <div id="top"></div>
+
+  <!-- CAPÇALERA: imatge de 800x150 -->
+  <header>
+    <!-- Imatge ubicada a /imatges (cal pujar un nivell amb ../) -->
+    <img src="../imatges/cabecera.png" alt="Capçalera 800x150" width="800" height="150" />
+  </header>
+
+  <!-- NAVEGACIÓ: llista desordenada amb enllaços RELATIUS -->
+  <nav>
+    <ul>
+      <li><a href="../index.html">Inici</a></li>
+      <li><a href="enllacos.html">Enllaços</a></li>
+      <li><a href="taules.html">Taules</a></li>
+      <li><a href="javascript.html">Javascript</a></li>
+      <li><a href="llistes.html">Llistes</a></li>
+    </ul>
+  </nav>
+
+  <!-- Títol de la secció -->
+  <h1>Exemples d’enllaços</h1>
+
+  <!-- ENLLAÇ INTERN A LA PLANA (àncora) -->
+  <p>
+    <!-- href apunta a un id dins del mateix document -->
+    <strong>Intern a la plana:</strong>
+    <a href="#p3">Anar al paràgraf 3</a>
+  </p>
+
+  <!-- ENLLAÇ INTERN AL PORTAL (cap a index) -->
+  <p>
+    <strong>Intern al portal:</strong>
+    <a href="../index.html">Anar a index.html</a>
+  </p>
+
+  <!-- ENLLAÇ RELATIU (dins del mateix directori /pagines) -->
+  <p>
+    <strong>Relatiu:</strong>
+    <a href="taules.html">Anar a taules.html</a>
+  </p>
+
+  <!-- ENLLAÇ ABSOLUT / EXTERN (URL completa) -->
+  <p>
+    <strong>Extern (absolut):</strong>
+    <a href="https://www.w3.org/" target="_blank">Web del W3C</a>
+  </p>
+
+  <hr />
+
+  <!-- 6 paràgrafs Lorem Ipsum amb id per poder saltar-hi -->
+  <section>
+    <h2>6 paràgrafs (Lorem Ipsum)</h2>
+
+    <!-- PARÀGRAF 1 -->
+    <article id="p1">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tincidunt purus tellus, feugiat mattis dui feugiat at. Praesent enim eros, sagittis in dolor et, bibendum facilisis odio. Aliquam quam leo, congue id dignissim et, tristique sed augue. Donec egestas a quam interdum ornare. Ut pretium pulvinar consequat. Morbi sed eros iaculis, volutpat lacus ac, feugiat erat. Nam blandit erat sapien, et lacinia nisl congue ac. Aliquam et rhoncus lectus, sed fringilla nisi. Duis pretium placerat massa sed mollis. In id semper ligula. Nunc nulla ex, suscipit nec elit vitae, vulputate lobortis est. Integer cursus commodo enim et placerat. Curabitur accumsan turpis et vehicula pulvinar. Nam porttitor ipsum vitae erat gravida, ut cursus urna tempus. Sed pretium purus a efficitur porttitor.</p>
+
+      <!-- Enllaços de navegació interna -->
+      <p>
+        <a href="#top">Top</a> |
+        <a href="#bottom">Bottom</a> |
+        <a href="#p2">Paràgraf següent</a>
+      </p>
+      <hr />
+    </article>
+
+    <!-- PARÀGRAF 2 -->
+    <article id="p2">
+      <p>Suspendisse id libero sed massa laoreet tincidunt. Nunc feugiat metus non purus convallis euismod. Vivamus porttitor ornare magna non pharetra. Suspendisse eleifend arcu et lorem pellentesque, a dignissim enim congue. Cras sodales mauris sed eros malesuada ultricies. Nulla facilisi. Suspendisse elementum hendrerit nulla, ac faucibus sem vehicula sed. Vestibulum pharetra turpis id vestibulum posuere. Pellentesque vel libero sed nisi sodales venenatis quis nec dolor. Proin semper, velit id consectetur consequat, enim quam mollis purus, quis iaculis justo quam at massa. Praesent lacus nulla, faucibus ac finibus eu, feugiat a neque. Phasellus consectetur, turpis sed laoreet tristique, nulla metus tincidunt massa, id mattis tellus nisl sed metus.</p>
+      <p>
+        <a href="#top">Top</a> |
+        <a href="#bottom">Bottom</a> |
+        <a href="#p1">Paràgraf anterior</a> |
+        <a href="#p3">Paràgraf següent</a>
+      </p>
+      <hr />
+    </article>
+
+    <!-- PARÀGRAF 3 -->
+    <article id="p3">
+      <p>Nulla consequat ex libero, pharetra porta arcu finibus ut. Ut congue sollicitudin orci a elementum. Maecenas ac ornare eros, vitae fermentum nisl. Suspendisse aliquet libero ut massa rutrum pharetra. Praesent vestibulum, nulla sit amet rhoncus commodo, urna magna viverra mi, nec facilisis justo lacus sed mauris. Nunc sed purus tincidunt, viverra eros at, finibus augue. In commodo a massa nec sollicitudin. Etiam quis egestas ipsum.</p>
+      <p>
+        <a href="#top">Top</a> |
+        <a href="#bottom">Bottom</a> |
+        <a href="#p2">Paràgraf anterior</a> |
+        <a href="#p4">Paràgraf següent</a>
+      </p>
+      <hr />
+    </article>
+
+    <!-- PARÀGRAF 4 -->
+    <article id="p4">
+      <p>Etiam interdum sed arcu sed sollicitudin. Etiam nibh sem, feugiat in gravida eu, aliquet at turpis. Integer dictum rutrum dolor eu posuere. Integer pulvinar felis at ipsum suscipit, ac laoreet dolor accumsan. Aliquam ac auctor magna, at blandit mauris. Etiam eu tincidunt ipsum. Maecenas in velit in neque semper congue eu at diam. Nulla eu lacus vel enim elementum auctor gravida eu leo. Proin interdum metus dictum ipsum consectetur consectetur. Donec vitae congue ex.</p>
+      <p>
+        <a href="#top">Top</a> |
+        <a href="#bottom">Bottom</a> |
+        <a href="#p3">Paràgraf anterior</a> |
+        <a href="#p5">Paràgraf següent</a>
+      </p>
+      <hr />
+    </article>
+
+    <!-- PARÀGRAF 5 -->
+    <article id="p5">
+      <p>In orci tortor, egestas nec sagittis eget, iaculis a nisi. Donec elit est, porta a sollicitudin id, ultricies a urna. Sed vulputate porttitor metus a mattis. Morbi ipsum justo, facilisis eget lacus ac, egestas facilisis felis. Etiam tempor quis purus eu tincidunt. Nam orci magna, fringilla ac eros nec, condimentum ultricies sapien. Curabitur nec elementum nibh. Donec non dolor vitae metus hendrerit aliquam. Phasellus a vehicula arcu, id varius tellus. Aenean convallis ullamcorper lobortis. Ut posuere, augue lobortis suscipit volutpat, ante ipsum pharetra sapien, nec faucibus lectus enim ut enim. Morbi posuere metus ut risus varius porttitor.</p>
+      <p>
+        <a href="#top">Top</a> |
+        <a href="#bottom">Bottom</a> |
+        <a href="#p4">Paràgraf anterior</a> |
+        <a href="#p6">Paràgraf següent</a>
+      </p>
+      <hr />
+    </article>
+
+    <!-- PARÀGRAF 6 -->
+    <article id="p6">
+      <p>Nulla et sodales nulla. Phasellus ultrices urna at erat vestibulum consectetur. Maecenas tempor sit amet eros sed malesuada. Etiam enim ligula, auctor quis magna pellentesque, tempus cursus nulla. Vivamus vel mauris tempus, vestibulum ligula id, hendrerit metus. Vestibulum vitae lorem quis tellus tincidunt auctor in et nulla. Sed id gravida diam. Phasellus est leo, eleifend et cursus sit amet, auctor in felis. Pellentesque viverra accumsan sem, tempus vulputate neque commodo eleifend. Quisque cursus pellentesque congue. Donec congue est in est imperdiet, nec vehicula eros elementum. Maecenas commodo non turpis at consectetur. Suspendisse ut magna vel sem ultricies porttitor a sit amet nunc. Donec vulputate purus in lectus convallis, eget aliquam tortor vehicula. Maecenas purus velit, pharetra nec finibus in, interdum id sapien.</p>
+      <p>
+        <a href="#top">Top</a> |
+        <a href="#bottom">Bottom</a> |
+        <a href="#p5">Paràgraf anterior</a>
+      </p>
+    </article>
+  </section>
+
+  <!-- ÀNCORA BOTTOM: punt inferior de la pàgina -->
+  <div id="bottom"></div>
+
+</body>
+</html>

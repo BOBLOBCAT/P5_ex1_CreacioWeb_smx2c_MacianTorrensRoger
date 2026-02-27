@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <!-- Metadades bàsiques del document -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taules</title>
+</head>
+<body>
+
+  <!-- CAPÇALERA: imatge de 800x150 -->
+  <header>
+    <img src="../imatges/capcalera.jpg" alt="Capçalera 800x150" width="800" height="150" />
+  </header>
+
+  <!-- NAVEGACIÓ -->
+  <nav>
+    <ul>
+      <li><a href="../index.html">Inici</a></li>
+      <li><a href="enllacos.html">Enllaços</a></li>
+      <li><a href="taules.html">Taules</a></li>
+      <li><a href="javascript.html">Javascript</a></li>
+      <li><a href="llistes.html">Llistes</a></li>
+    </ul>
+  </nav>
+
+  <!-- Títol principal -->
+  <h1>Taules</h1>
+
+  <!-- ÀREA: Taula principal -->
+  <table border="1" cellpadding="8" cellspacing="0">
+
+    <!-- Capçalera de la taula -->
+    <thead>
+      <tr>
+        <th>Element</th>
+        <th>Tipus</th>
+        <th>Descripció</th>
+      </tr>
+    </thead>
+
+    <!-- Cos de la taula -->
+    <tbody>
+      <tr>
+        <td>&lt;h1&gt;...&lt;/h1&gt;</td>
+        <td>Bloc</td>
+        <td>Encapçalament de primer nivell</td>
+      </tr>
+      <tr>
+        <td>&lt;p&gt;...&lt;/p&gt;</td>
+        <td>Bloc</td>
+        <td>Paràgraf</td>
+      </tr>
+      <tr>
+        <td>&lt;a href=""&gt;</td>
+        <td>Inline</td>
+        <td>Enllaç (intern/extern/relatiu/absolut)</td>
+      </tr>
+      <tr>
+        <td>id / class</td>
+        <td>Atribut global</td>
+        <td>Identificar (id) i agrupar (class)</td>
+      </tr>
+      <tr>
+        <td>onclick</td>
+        <td>Atribut d’esdeveniment</td>
+        <td>Executa codi en fer clic (JavaScript)</td>
+      </tr>
+    </tbody>
+
+    <!-- Peu de la taula -->
+    <tfoot>
+      <tr>
+        <td colspan="3">Fi de la taula</td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+</body>
+</html>
